@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GTT Store using Grid</title>
+    <link rel="stylesheet" href="CSS/DAY-10.css
+    ">
+</head>
+<body>
+    <header>
+        <div class="logo-icon">🎮</div>
+        <div class="logo-text">
+            <h1>GTT Store</h1>
+           <p>Every Gamer's Home Base</p>
+        </div>
+    </header>
+
+    <nav>
+     <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#" class="active">Games</a></li>
+       <li><a href="#">Deals</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Contact</a></li>
+    </ul>
+    </nav>
+
+        <div class="page-title">
+          <h2>Day 10 - CSS Grid</h2>
+          <p>Three different grid layouts in action </p>
+        </div>
+         <span class="section-label">grid-template-column: 1fr 1fr 1fr</span>
+           <h3>Games Store Grid - 3 Equal Columns</h3>
+           <div class="game-store-section">
+               <article class="game-store">
+                   <div class="shadow"></div>
+                   <div>
+                      <h4>Shadow Realm</h4>
+                      <p class="desc">Action RPG • 2026</p>
+                      <p class="price">$29.99</p>
+                   </div>
+               </article>
+                <article class="game-store">
+                     <div class="nova"></div>
+                    <div>
+                     <h4>Nova Squad</h4>
+                     <p class="desc">Shooter . 2026</p>
+                     <p class="price">$19.99</p>
+                    </div> 
+               </article>
+                <article class="game-store">
+                     <div class="inferno"></div>
+                     <div>
+                       <h4>Inferno Run</h4>
+                       <p class="desc">Platformer • 2026</p>
+                       <p class="price">$9.99</p>
+                     </div>
+               </article>
+                <article class="game-store">
+                   <div class="cyber"></div>
+                   <div>
+                        <h4>Cyber Clash</h4>
+                        <p class="desc">Fighting • 2026</p>
+                        <p class="price">$14.99</p>
+                   </div>
+               </article>
+                <article class="game-store">
+                   <div class="lost"></div>
+                   <div>
+                        <h4>Lost Worlds</h4>
+                   <p class="desc">Adventure • 2026</p>
+                   <p class="price">$24.99</p>
+                   </div>
+               </article>
+                <article class="game-store">
+                    <div class="deep"></div>
+                   <div>
+                     <h4>Deep Strike</h4>
+                   <p class="desc">Strategy • 2026</p>
+                   <p class="price">$34.99</p>
+                   </div>
+               </article>
+           </div>
+
+           <span class="section-label">grid-template-columns: 180px 1fr 150px</span>
+           <h3>Page Layout Grid - Sidebar + Main + Aside</h3>
+           <div class="page-layout">
+                  <aside class="sidebar">
+                 <h4>Categories</h4>
+                 <ul>
+                     <li class="active-link">All Games</li>
+                     <li>Action</li>
+                     <li>RPG</li>
+                     <li>Shooter</li>
+                     <li>Strategy</li>
+                     <li>Adventure</li>
+               </ul>
+                  </aside>
+             <main class="featured">
+                    <h4>Featured Game</h4>
+                    <div class="purple-featured"> <h3>Shadow Realm - Out Now</h3> </div>
+                   <p style="color: grey; font-size: 0.8rem;">The most anticipated RPG of 2026 is finally here. 
+                    Choose your faction and battle for control of the realm.</p>
+             </main>
+                        <aside class="pick">
+                <h5>Top Picks</h5>
+               <div class="items">
+                 <p class="item-detail">Cyber Clash</p>
+                   <span>$14.99</span>
+               </div>
+               <div class="items">
+                   <p class="item-detail">Lost Worlds</p>
+                   <span>$24.99</span>
+               </div>
+               <div class="items">
+                  <p class="item-detail">Inferno Run</p>
+                  <span>$9.99</span>
+               </div>
+                        </aside>
+           </div>
+         
+            <span class="section-label">grid-template-columns: repeat(autofill, minmax(140px, 1fr))</span>
+             <h3>Auto-Fill Grid - Adjust to Screen Size</h3>
+             <div class="grid-card">
+             <div class="grid-item"><span>🎮</span>Action </div>
+             <div class="grid-item"><span>⚔️</span>RPG </div>
+             <div class="grid-item"><span>🔫</span>Shooter</div>
+             <div class="grid-item"><span>🧩</span>Puzzle</div>
+             <div class="grid-item"><span>🏎️</span>Racing</div>
+             <div class="grid-item"><span>🗺️</span>Adventure</div>
+             <div class="grid-item"><span>♟️</span>Strategy</div>
+             <div class="grid-item"><span>⚽</span>Sports</div>
+             </div>
+         <footer>
+                    <p>&copy; 2026 GTT Store. All rights reserved.</p> 
+                 <ul>
+                     <li><a href="#">Privacy</a></li>
+                     <li><a href="#">Terms</a></li>
+                     <li><a href="#">Contact</a></li>
+                 </ul>
+         </footer>
+</body>
+</html>
